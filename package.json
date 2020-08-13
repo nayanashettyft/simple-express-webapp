@@ -1,7 +1,7 @@
 {
   "name": "simple-express-webapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to test next metrics validations",
   "main": "index.js",
   "scripts": {
     "start": "node index",

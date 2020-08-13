@@ -24,7 +24,7 @@ app.set('view engine', 'handlebars');
 
 app.get('/', (req,res) => {
   metrics.instrument(res, { as: 'express.http.res' });
-  metrics.count('long.count.hellojshdsjdhjskcns.sdcdscdscds.vdscsdcscf.afefaewfawef.adcfadscfaedf.faedfcadfaerwf.faedfaerferrae.ferfersfserfgse.ferfaerferwf.faerfwerfweferrfhserfj.fesrfserf.frefgerferg.tfyjftygg.sdfsdfvc.dwaedcs')
+  metrics.count('long.count.hellojshdsjdhjskcns.sdcdscdscds.vdscsdcscf.afefaewfawef.adcfadscfaedf.faedfcadfaerwf.faedfaerferrae.ferfersfserfgse.ferfaerferwf.faerfwerfweferrfhserfj.fesrfserf.frefgerferg.tfyjftygg.sdfsdfvc.dwaedcs.hfddvhhhhh')
   return res.render('index', {
     title: 'Member App',
     members

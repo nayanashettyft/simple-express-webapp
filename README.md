@@ -11,5 +11,11 @@ npm install
 npm run dev
 ```
 
+### Set env variables
+
+```sh
+export FT_GRAPHITE_APP_UUID={UUID};export NODE_ENV=production;export REGION=AP
+```
+
 http://localhost:5000
 http://localhost:5000/api/members
